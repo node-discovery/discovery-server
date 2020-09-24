@@ -1,0 +1,31 @@
+{
+	"name": "discovery-server",
+	"version": "0.0.1-SNAPSHOT",
+	"description": "a discovery server for microservice workload processor",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "ts-node ./src/index.ts",
+		"start:dev": "nodemon"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/node-discovery/discovery-server.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/node-discovery/discovery-server/issues"
+	},
+	"homepage": "https://github.com/node-discovery/discovery-server#readme",
+	"devDependencies": {
+		"@types/node": "^14.11.2",
+		"nodemon": "^2.0.4",
+		"typescript": "^4.0.3",
+		"ts-node": "^9.0.0"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"socket.io": "^2.3.0"
+	}
+}
