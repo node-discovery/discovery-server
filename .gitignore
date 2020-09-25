@@ -105,3 +105,6 @@ dist
 
 #custom project ignores
 test-server/
+archives/functions.js
+archives/index.js
+archives/server.js
